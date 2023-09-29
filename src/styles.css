@@ -2,4 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body { margin: 0; font-family: Inter, "Helvetica Neue", sans-serif; }
+* { margin: 0; font-family: "Inter", "Helvetica Neue", sans-serif !important; }
+
+.mdc-button{
+    letter-spacing: normal;
+    box-shadow: none !important;
+}
