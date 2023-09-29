@@ -12,6 +12,11 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { LoginFormComponent } from './login/login-form/login-form.component';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,6 +24,7 @@ import { MatListModule } from '@angular/material/list';
     LoginComponent,
     DeploymentsComponent,
     ProjectsComponent,
+    LoginFormComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,6 +35,12 @@ import { MatListModule } from '@angular/material/list';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatButtonModule,
+    MatDividerModule,
+    MatIconModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
